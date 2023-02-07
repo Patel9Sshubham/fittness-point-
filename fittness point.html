@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fittness point</title>
+   
+</head>
+<style>
+    body{
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background-image: url('fitt 11.jpg');
+        background-size: 1300px 600px;
+    }
+    .left{
+        left: 30px;
+        
+        /*border: 2px solid red;*/
+        display: inline-block;
+        position: absolute;
+        top: 18px;
+        width: 10%;
+    }
+    .right{
+        /*border: 2px solid rgb(0, 255, 213);*/
+        display: inline-block;
+        position: absolute;
+        right: 35px;
+        top: 18px;
+    }
+    .mid{
+        /*border: 2px solid rgb(68, 0, 255);*/
+        display: block;
+        width: 60%;
+        margin: 15px auto;
+    }
+    .navbar{
+        display: inline-block;
+
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 40px;
+    } 
+    .navbar li a:hover{
+        color: red;
+        text-decoration: underline;
+        padding: 40px;
+    } 
+    img{
+        margin: auto;
+        display: block;
+        width: 55px;
+    }
+    .left div{
+        font-size: 18px;
+        text-align: center;
+    }
+    .btn{
+        cursor: pointer;
+        background-color: black;
+        color: white;
+        font-size: 16px;
+        margin: 2px 3px;
+        padding: 3px 6px;
+    }
+    .btn:hover{
+        background-color: rgb(235, 18, 36);
+    }
+    .container{
+        border: 2px solid white;
+        margin: 25px 55px;
+        display: inline-block;
+        padding: 23px 35px;
+        border-radius: 12px;  
+    }
+    .form-group input{
+             text-align: center;
+             display: block;
+             width: 65%;
+             margin: 20px auto;
+             padding: 4px ;
+             font-size: 20px;
+    }
+    .bttn{
+        display: block;
+        width: 22%;
+        margin: auto;
+    }
+    .bttn:hover{
+        background-color: gray;
+
+    }
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+           <img src="gym logo.jpg" alt="" width="55px" height="45px">
+           <div> fittnes point</div>
+        </div>
+        <div class="right">
+             <button class="btn">
+                call us now 
+             </button>
+             <button class="btn">
+                email us  
+             </button>
+        </div>
+        
+        <div class="mid">
+               <ul class="navbar">
+                <li><a href="#"> Home </a></li>
+                <li><a href="about.html"> About </a></li>
+                <li><a href="gym galary.html"> Galary </a></li>
+                <li><a href="contact us.html"> Contact us </a></li>
+               </ul>
+        </div>
+    </header>
+    <div class="container"> 
+    <h1>Join the best gym of dewas now</h1>    
+    <form action="gym submit.html">
+        <div class="form-group">
+            <input type="text" name="" id="" placeholder="enter your name">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" id="" placeholder="Gender">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" id="" placeholder="enter your age">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" id="" placeholder="enter your address">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" id="" placeholder="enter your contact no">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" id="" placeholder="enter your email id no">
+        </div>
+        <button class="bttn">submit</button>
+    </form>
+    </div>
+</body>
+</html>
